@@ -76,6 +76,6 @@ public class StudentExpenseChecker {
             total += expense.amount;
         }
 
-        System.out.println("\nTotal Expenses: $" + String.format("%.2f", total));
+        System.out.println("\nTotal Expenses/100: $" + String.format("%.2f", total));
     }
 }
